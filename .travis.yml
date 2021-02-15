@@ -5,3 +5,5 @@ services:
   - docker
 install:
   - make deps
+scripts:
+  -make lint
