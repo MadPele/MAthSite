@@ -1,4 +1,4 @@
 deps:
-	pip install -r requierments.txt
+	pip install -r requirements.txt
 run:
 	py app.py
