@@ -1,7 +1,7 @@
 deps:
 	pip install -r requirements.txt
 run:
-	python app.py
+	py app.py
 docker_build:
 	docker build -t madpele/math-site .
 docker_run: docker_build
