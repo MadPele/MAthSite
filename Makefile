@@ -2,8 +2,6 @@ deps:
 	pip install -r requirements.txt
 run:
 	py app.py
-lint:
-	flake8 app test
 docker_build:
 	docker build -t madpele/math-site .
 docker_run: docker_build

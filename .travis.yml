@@ -6,4 +6,4 @@ services:
 install:
   - make deps
 scripts:
-  -make lint
+  -make run
